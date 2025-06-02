@@ -27,3 +27,5 @@ async def main():
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     loop.run_until_complete(main())
+    if __name__ == '__main__':
+    executor.start_polling(dp)
